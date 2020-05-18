@@ -1,12 +1,13 @@
 package com.nani.subbranches;
 
-import com.nani.BajajFactory.BajajFactory;
+import com.nani.BajajFactory.BajajBike;
+
 import com.nani.BajajFactory.CT100Bike;
 import com.nani.BajajFactory.PlatinaBike;
 import com.nani.BajajFactory.PulsorBike;
 
 public class NagapurBranch {
-	static BajajFactory model;
+	static BajajBike model;
 	
 	public static void paint() {
 		System.out.println("Paint COmpleted");
@@ -17,7 +18,7 @@ public class NagapurBranch {
 	public static void test() {
 		System.out.println("test COmpleted");
 	}
-	public static BajajFactory buildBike(String bikeModel) {
+	public static BajajBike buildBike(String bikeModel) {
 		model = null;
 		if(bikeModel.equalsIgnoreCase("pulsor")) {
 			model = new PulsorBike();

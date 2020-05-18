@@ -1,6 +1,6 @@
 package com.nani.BajajFactory;
 
-public class PulsorBike implements BajajFactory {
+public class PulsorBike implements BajajBike {
 
 	@Override
 	public void run() {
