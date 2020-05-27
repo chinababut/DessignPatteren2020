@@ -8,7 +8,7 @@ import com.nani.concreteDecorator.Upma;
 import com.nani.concretecomponent.MinapaDosa;
 import com.nani.concretecomponent.SetDosa;
 
-public class Custemer1 {
+public class Custemer {
 
 	public static void main(String[] args) {
 		
