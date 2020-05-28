@@ -1,0 +1,102 @@
+body 
+{ 
+ margin: 0; 
+ padding: 0; 
+ 
+  
+} 
+.container 
+{ 
+ width: 900px; 
+ margin:  150px auto 0; 
+ display: flex; 
+} 
+.container .box 
+{ 
+
+ position: relative; 
+ width: 350px; 
+ height:150px; 
+ box-sizing: border-box; 
+ text-align: center; 
+ margin: 0 10px; 
+} 
+
+.container .box .icon 
+{ 
+ width: 100%; 
+ height: 100%; 
+ background: #151515; 
+ transition: 0.5s; 
+ transform-origin: top; 
+ transform: translateY(0) rotateX(0deg); 
+} 
+.container .box:hover .icon 
+{ 
+ transform: translateY(100%) rotateX(90deg); 
+} 
+.container .box .icon .fa 
+{ 
+ font-size: 4em; 
+ line-height: 100px; 
+ color: #999; 
+} 
+.container .box .details 
+{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width: 100%; 
+ height: 100%;  
+ transition: 0.5s; 
+ transform-origin: bottom; 
+ transform: translateY(-100px) rotateX(90deg); 
+} 
+.container .box:hover .details 
+{ 
+ transform: translateY(0) rotateX(0deg); 
+} 
+.container .box .details h3 
+{ 
+	text-align: center;
+ margin: 0; 
+ padding: 0; 
+ line-height: 100px; 
+ font-size: 24px; 
+ color: #fff; 
+ font-family: sans-serif; 
+} 
+.container .box .details h4{  
+	text-align: center;
+	
+    font-size: 20px; 
+    margin: 0; 
+    padding: 0; 
+    color: #fff; 
+     font-family: sans-serif;
+} 
+
+.container .box:nth-child(1) .icon 
+{ 
+    background: #319635; 
+} 
+.container .box:nth-child(1) 
+{ 
+    background: #4caf50; 
+} 
+.container .box:nth-child(2) .icon 
+{ 
+    background: #d03852; 
+} 
+.container .box:nth-child(2) 
+{ 
+    background: #f54967; 
+} 
+.container .box:nth-child(3) .icon 
+{ 
+    background: #23798e; 
+} 
+.container .box:nth-child(3) 
+{ 
+    background: #328fa5; 
+}

@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:00:45 +0530] "POST /login HTTP/1.1" 200 1529 http-bio-8080-exec-7 18
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:00:46 +0530] "GET /resources/css/bg.jp HTTP/1.1" 404 949 http-bio-8080-exec-7 6
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:00:49 +0530] "GET /projectcreation HTTP/1.1" 200 3337 http-bio-8080-exec-7 11
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:00:51 +0530] "GET /projectcreation HTTP/1.1" 200 3337 http-bio-8080-exec-7 5
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:01:02 +0530] "GET /modulecreation HTTP/1.1" 200 3200 http-bio-8080-exec-8 180
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:03:49 +0530] "GET /login HTTP/1.1" 200 705 http-bio-8080-exec-5 150
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:03:51 +0530] "GET /resources/css/bg1.jpg HTTP/1.1" 404 949 http-bio-8080-exec-5 17
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:03:59 +0530] "POST /login HTTP/1.1" 200 1529 http-bio-8080-exec-9 86
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:04:05 +0530] "GET /projectcreation HTTP/1.1" 200 3329 http-bio-8080-exec-9 398
+0:0:0:0:0:0:0:1 - - [06/May/2020:00:04:11 +0530] "GET /modulecreation HTTP/1.1" 200 3200 http-bio-8080-exec-10 24
